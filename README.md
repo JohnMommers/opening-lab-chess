@@ -4,13 +4,13 @@ A mobile-friendly chess opening trainer. Practice Lichess opening lines as White
 
 ## Local development
 
-\`\`\`sh
+```sh
 pnpm install
 pnpm dev
-\`\`\`
+```
 
 ## Deploy on Vercel
 
-Import this GitHub repository into Vercel. The project uses Vite; \`vercel.json\` sets the build command to \`pnpm build\` and output directory to \`dist\`. Connect the repository to enable deployments on each push to \`main\`.
+Import this GitHub repository into Vercel. The project uses Vite; `vercel.json` sets the build command to `pnpm build` and output directory to `dist`. Connect the repository to enable deployments on each push to `main`.
 
 See [DATA_SOURCES.md](DATA_SOURCES.md) for opening data and piece artwork attribution.
